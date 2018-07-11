@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED75D99720F65BAC00CE9DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D99620F65BAC00CE9DFF /* AppDelegate.swift */; };
+		ED75D99920F65BAC00CE9DFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D99820F65BAC00CE9DFF /* ViewController.swift */; };
+		ED75D99C20F65BAC00CE9DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75D99A20F65BAC00CE9DFF /* Main.storyboard */; };
+		ED75D99F20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED75D99D20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld */; };
+		ED75D9A120F65BAD00CE9DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75D9A020F65BAD00CE9DFF /* Assets.xcassets */; };
+		ED75D9A420F65BAD00CE9DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75D9A220F65BAD00CE9DFF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED75D99320F65BAC00CE9DFF /* PopOverCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopOverCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED75D99620F65BAC00CE9DFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED75D99820F65BAC00CE9DFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED75D99B20F65BAC00CE9DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED75D99E20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PopOverCalendar.xcdatamodel; sourceTree = "<group>"; };
+		ED75D9A020F65BAD00CE9DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED75D9A320F65BAD00CE9DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED75D9A520F65BAD00CE9DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED75D99020F65BAC00CE9DFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED75D98A20F65BAC00CE9DFF = {
+			isa = PBXGroup;
+			children = (
+				ED75D99520F65BAC00CE9DFF /* PopOverCalendar */,
+				ED75D99420F65BAC00CE9DFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED75D99420F65BAC00CE9DFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED75D99320F65BAC00CE9DFF /* PopOverCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED75D99520F65BAC00CE9DFF /* PopOverCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				ED75D99620F65BAC00CE9DFF /* AppDelegate.swift */,
+				ED75D99820F65BAC00CE9DFF /* ViewController.swift */,
+				ED75D99A20F65BAC00CE9DFF /* Main.storyboard */,
+				ED75D9A020F65BAD00CE9DFF /* Assets.xcassets */,
+				ED75D9A220F65BAD00CE9DFF /* LaunchScreen.storyboard */,
+				ED75D9A520F65BAD00CE9DFF /* Info.plist */,
+				ED75D99D20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld */,
+			);
+			path = PopOverCalendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED75D99220F65BAC00CE9DFF /* PopOverCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED75D9A820F65BAD00CE9DFF /* Build configuration list for PBXNativeTarget "PopOverCalendar" */;
+			buildPhases = (
+				ED75D98F20F65BAC00CE9DFF /* Sources */,
+				ED75D99020F65BAC00CE9DFF /* Frameworks */,
+				ED75D99120F65BAC00CE9DFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopOverCalendar;
+			productName = PopOverCalendar;
+			productReference = ED75D99320F65BAC00CE9DFF /* PopOverCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED75D98B20F65BAC00CE9DFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Marcus Hidalgo";
+				TargetAttributes = {
+					ED75D99220F65BAC00CE9DFF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = ED75D98E20F65BAC00CE9DFF /* Build configuration list for PBXProject "PopOverCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED75D98A20F65BAC00CE9DFF;
+			productRefGroup = ED75D99420F65BAC00CE9DFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED75D99220F65BAC00CE9DFF /* PopOverCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED75D99120F65BAC00CE9DFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75D9A420F65BAD00CE9DFF /* LaunchScreen.storyboard in Resources */,
+				ED75D9A120F65BAD00CE9DFF /* Assets.xcassets in Resources */,
+				ED75D99C20F65BAC00CE9DFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED75D98F20F65BAC00CE9DFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED75D99F20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld in Sources */,
+				ED75D99920F65BAC00CE9DFF /* ViewController.swift in Sources */,
+				ED75D99720F65BAC00CE9DFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED75D99A20F65BAC00CE9DFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED75D99B20F65BAC00CE9DFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED75D9A220F65BAD00CE9DFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED75D9A320F65BAD00CE9DFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED75D9A620F65BAD00CE9DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED75D9A720F65BAD00CE9DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED75D9A920F65BAD00CE9DFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopOverCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCP.PopOverCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED75D9AA20F65BAD00CE9DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PopOverCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OCP.PopOverCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED75D98E20F65BAC00CE9DFF /* Build configuration list for PBXProject "PopOverCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75D9A620F65BAD00CE9DFF /* Debug */,
+				ED75D9A720F65BAD00CE9DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED75D9A820F65BAD00CE9DFF /* Build configuration list for PBXNativeTarget "PopOverCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED75D9A920F65BAD00CE9DFF /* Debug */,
+				ED75D9AA20F65BAD00CE9DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED75D99D20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED75D99E20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodel */,
+			);
+			currentVersion = ED75D99E20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodel */;
+			path = PopOverCalendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED75D98B20F65BAC00CE9DFF /* Project object */;
+}
