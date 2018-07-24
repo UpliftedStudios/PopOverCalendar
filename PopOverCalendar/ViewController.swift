@@ -8,18 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController, UIPopoverPresentationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func barBtnTapped(_ sender: Any) {
+        
+        let VC = storyboard?.instantiateViewController(withIdentifier: "popOverVC") as! PopOverVC
+        let navController = UINavigationController(rootViewController: VC)
+        VC.preferredContentSize = CGSize(width: 400, height: 400)
+        navController.modalPresentationStyle = UIModalPresentationStyle.popover
+        
+        let popOver = navController.popoverPresentationController
+        
+        popOver?.delegate = self
+        popOver?.barButtonItem = sender as? UIBarButtonItem
+        self.present(navController, animated: true, completion: nil)
+        
     }
-
-
+    
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        return .none
+    }
+    
 }
 

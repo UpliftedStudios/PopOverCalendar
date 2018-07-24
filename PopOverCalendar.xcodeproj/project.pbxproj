@@ -13,6 +13,8 @@
 		ED75D99F20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED75D99D20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld */; };
 		ED75D9A120F65BAD00CE9DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED75D9A020F65BAD00CE9DFF /* Assets.xcassets */; };
 		ED75D9A420F65BAD00CE9DFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED75D9A220F65BAD00CE9DFF /* LaunchScreen.storyboard */; };
+		ED75D9B020F6621300CE9DFF /* PopOverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D9AF20F6621300CE9DFF /* PopOverVC.swift */; };
+		ED75D9B220F662DE00CE9DFF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75D9B120F662DE00CE9DFF /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		ED75D9A020F65BAD00CE9DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED75D9A320F65BAD00CE9DFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED75D9A520F65BAD00CE9DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED75D9AF20F6621300CE9DFF /* PopOverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverVC.swift; sourceTree = "<group>"; };
+		ED75D9B120F662DE00CE9DFF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				ED75D99620F65BAC00CE9DFF /* AppDelegate.swift */,
 				ED75D99820F65BAC00CE9DFF /* ViewController.swift */,
+				ED75D9AF20F6621300CE9DFF /* PopOverVC.swift */,
+				ED75D9B120F662DE00CE9DFF /* CollectionViewCell.swift */,
 				ED75D99A20F65BAC00CE9DFF /* Main.storyboard */,
 				ED75D9A020F65BAD00CE9DFF /* Assets.xcassets */,
 				ED75D9A220F65BAD00CE9DFF /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED75D9B220F662DE00CE9DFF /* CollectionViewCell.swift in Sources */,
 				ED75D99F20F65BAC00CE9DFF /* PopOverCalendar.xcdatamodeld in Sources */,
 				ED75D99920F65BAC00CE9DFF /* ViewController.swift in Sources */,
+				ED75D9B020F6621300CE9DFF /* PopOverVC.swift in Sources */,
 				ED75D99720F65BAC00CE9DFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
